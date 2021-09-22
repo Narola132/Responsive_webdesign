@@ -1,0 +1,52 @@
+@media (min-width: 31.25em) and (orientation: landscape)	
+{
+	nav, article {
+		max-width: 100% !important;
+		height: auto;
+	}		  
+	.logoimage {
+		border-radius: 5px;
+		margin-left: 170px;
+		max-width: 400px;
+	}
+	.col-md-4{
+		max-width:40% !important;		
+	} 
+	.category {
+		padding: 20px;
+    }
+	.category-content
+    {
+		padding: 10px;
+	}
+    .col-md-8{
+	    width: 51%;
+	}
+	.imgfloormap{
+	    width:55%;
+	}
+	.h1heading{
+		font-size:140% !important;
+	}
+	.tablecontent{
+	    width:55%; 
+	}
+	.input[type=text], select, textarea {
+	    width:50%;
+	}
+	.col-para{
+		font-size:8px;
+	    width:100%;
+	}
+	p{
+		font-size:8px;
+	}
+	.sitemenu ul{
+	    margin:0px;
+	    padding:0px;
+	}
+	.sitemenu ul li{
+		float:none;
+	}
+}
+			

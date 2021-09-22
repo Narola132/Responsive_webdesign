@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Type Specification</title>
+<style>
+body {background-color:#fff;font-family:Georgia;}
+.menustyle{
+text-transform: uppercase;
+display: block;
+padding:10px;
+}
+.h1heading{font-size:150%;}
+.h2heading{font-size:150%;}
+.h4heading{font-size:80%;}
+a{
+	color:#5A0B0B;
+}
+.menu li{
+display: inline;
+list-style-type: none;
+padding:10px;
+text-transform: uppercase;
+
+}
+.apara{
+background-color:#fff;
+border-left:6px solid;
+margin:3em 0 0 2em;
+padding:2em 2em 1em 1em;
+}
+</style>
+</head>
+<body>
+	<div>
+	<div>
+	<h1>before sample</h1>
+		<h1 class="h1heading">Navigation Fontstyle</h1>
+		<ul>
+			<li class="menustyle">Home<li>
+			<li class="menustyle">Antique Collection</li>
+			<li class="menustyle">Stamps Collection</li>
+			<li class="menustyle">Coins Collection</li>
+			<li class="menustyle">Origami Collection</li>
+		</ul>
+		<h2 class="h2heading">Wecome message heading</h2>
+		<h4 class="h4heading">category title heading</h4>
+		<a href="#"><em>Home</em></a>
+		<a href="#"><em>Antique Collection</em></a>
+		<a href="#"><em>Stamps Collection</em></a>
+		<a href="#"><em>Coins Collection</em></a>
+		<a href="#"><em>Origami Collection</em></a>
+
+		<p>box-model content brfore applying css</p>
+		<p>Antique Collection<p>
+		<p style="line-height:1.4">This is a list of popular collectables described in Wikipedia articles.
+		The references cited include collectors' clubs and societies for each item to support its presence
+		on this list by demonstrating the notability or popularity of the collectable.</p>
+
+
+	</div>
+	<div>
+	<h1>After Sample</h1>
+	<h1 class="h1heading">Navigation Fontstyle</h1>
+		<ul class="menu">
+						<li class="menustyle">Home<li>
+						<li class="menustyle">Antique Collection</li>
+						<li class="menustyle">Stamps Collection</li>
+						<li class="menustyle">Coins Collection</li>
+						<li class="menustyle">Origami Collection</li>
+					</ul>
+					<h2 class="h2heading">Wecome message heading</h2>
+					<h4 class="h4heading">category title heading</h4>
+					<a href="#"><em>Home</em></a>
+					<a href="#"><em>Antique Collection</em></a>
+					<a href="#"><em>Stamps Collection</em></a>
+					<a href="#"><em>Coins Collection</em></a>
+					<a href="#"><em>Origami Collection</em></a>
+		<p>box-model content brfore applying css</p>
+		<p>Antique Collection<p>
+		<p class="apara">This is a list of popular collectables described in Wikipedia articles.
+		The references cited include collectors' clubs and societies for each item to support its
+		presence on this list by demonstrating the notability or popularity of the collectable.</p>
+
+	</div>
+	</div>
+</body>
+</html>

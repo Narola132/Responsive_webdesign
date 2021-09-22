@@ -1,0 +1,40 @@
+/*
+File Name: Desktopcomputer.css
+Author: Patel payal pratikkumar
+Created Time: created time and date - 2 june 11:28AM
+Last Modified Time: 7th june
+Purpose: to give attractive look and feel to html structure of robot expo website
+*/
+
+/* media query for desktop device between 64 em to 80 em  */
+
+
+@media (min-width: 64em) and (max-width: 80em) {
+	nav, article {
+		width: 100%;
+		height: auto;
+	}
+	.logoimage{
+		border-radius:5px;
+		margin-left: 290px;
+		max-width:480px;		
+	}
+	.col-md-8{
+		width:55% !important;
+	} 
+	p{
+		font-size: 12px;
+	}
+	.col-para{
+		width: 108%;
+	}	
+}		
+@media all and (-ms-high-contrast:none)
+     {
+     *::-ms-backdrop,.col-md-4{
+		max-width:40% !important;		
+		} 
+	*::-ms-backdrop,.col-md-8{
+		max-width:51% !important;
+		} /* IE11 */
+     }

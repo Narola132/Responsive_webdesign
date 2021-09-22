@@ -1,0 +1,260 @@
+/*
+File Name: Style.css
+Author: NAROLA SHRADDHA
+Created Time: created time and date - 25 Sptember 3:10pm
+Last Modified Time: last modified time and date
+Purpose: to give attractive look and feel to html structure of Hobby and Collctibles  website
+*/
+
+/* Please provide enough line comments */
+
+/*Body container style*/
+
+            body{
+                width: 100%;
+				height: 100%;
+				margin-left: auto;
+				margin-top: auto;
+				font-family:Georgia ;
+				background-color: #ADD8E6;
+				font-size:80%;
+            	}
+			
+			.logo{
+				border-radius:5px;
+				margin-left: 500px;
+				max-width:400px;
+				
+			}
+/*Heading style*/
+			.h1{font-size:150%;}
+			.h2{font-size:150%;}
+			.h4{font-size:80%;}
+            
+/*Header and Footer style*/
+
+            		.header{
+              		  	background-color: #F8F8F8;
+               			border: 1px solid antiquewhite;
+                		border-radius: 5px;
+           		 }
+			.footer{
+				background-color: #808080;
+               		 	border: 1px solid antiquewhite;
+                		border-radius: 5px;
+				padding: 10px;
+				text-align: center;
+				color: white;
+				font-size:100%;
+				
+				
+			} 
+            		.copyRights{
+               			 padding-left: 280px;
+               			
+            		}
+  
+/*Navigation menubar style*/
+			nav{
+				diaplay:block;
+			}
+			.menubar
+			{
+			   background-color: #C70039;
+			   margin-top: 5px;
+			} 
+			.menubar ul
+			{
+				list-style-type: none;
+				overflow: hidden;
+			}
+			.menubar ul li
+			{
+				float:left;
+				background-color: #C70039;
+			}
+			
+			.menubar ul li.active
+			{
+				background-color:#FF69B4;
+				
+			}
+			
+			.menubar ul li a{
+				font-weight: 800%;
+				text-transform: uppercase;
+				text-decoration: none;
+				color:#fff;
+				display: block;
+				padding:10px;
+			}
+			
+			.menubar ul li a:hover {
+			background-color: #faebd7;
+			color:#111;
+			}
+/*sidebar style*/
+			.side{
+				margin-top: 30px;
+				background-color: #F8F8F8;
+				
+		
+				 overflow-y: scroll;
+				
+			}
+			.category {
+				padding: 30px;
+				padding-top: 15px;
+				padding-bottom: 0;
+			}
+			.category-content
+			{
+				padding: 15px;
+				padding-top: 7.5px;
+				padding-bottom: 0;
+				border-left:6px solid;
+			}
+			.category-content ul
+			{
+				list-style-type: none;
+			}
+			.category-content a{color:#5A0B0B;}
+			
+			.category-content ul li a:hover {
+			color: #8A2BE2;
+			}
+			
+/*Article and section main container */
+		
+			.article {
+				  float: left;
+				  padding: 20px;
+				  width: 70%;
+				  background-color: #fff;
+				  height: 300px; /* only for demonstration, should be removed */
+			}
+			/* Clear floats after the columns */
+			section:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+/*Table style*/
+			.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+				position: relative;
+				min-height: 1px;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.col-md-4{
+				float: left;
+			} 
+			
+			.col-md-8{
+				width: 67.666667%;
+				float:left;
+			}
+			
+			#main-Container
+			{
+				width: 100%;
+				margin-left: auto;
+				margin-top: auto;
+			}
+			
+/*Notes text style*/
+			.txt-danger{
+				color:red;
+				font-size:100%;
+			}
+			
+/*Table style*/
+			.tablecontent{
+				width:100%;
+				border-collapse: collapse;	
+			}		
+			td, th {
+				border: 1px solid #dddddd;
+				text-align: left;
+				padding: 8px;
+			}
+
+			tr:nth-child(even) {
+				background-color: #dddddd;
+			}
+			.image{
+				width:100%;
+				height:100%;
+				border-radius:5px;
+			}
+			
+			/* Create two equal columns that floats next to each other */
+			.column {
+			  float: left;
+			  padding: 10px;
+			  height: 155px;
+			}
+
+			.cright{
+				width:50%;
+				font-size:80%;
+			}
+			
+			.cleft{
+				width: 20%;
+				font-size:80%;
+				
+				}
+			}
+			
+			/* Clear floats after the columns */
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style inputs */
+			input[type=text], select, textarea {
+			  width: 95%;
+			  padding: 12px;
+			  border: 1px solid #ccc;
+			  margin-top: 6px;
+			  margin-bottom: 16px;
+			  resize: vertical;
+			}
+
+			input[type=submit]
+			{
+			  padding: 12px 20px;
+			  border: none;
+			  cursor: pointer;
+			}
+			
+/* Style breadcrumbs */
+			ul.breadcrumbs {
+			  padding: 0px 0px;
+			  list-style: none;
+			  
+			}
+			ul.breadcrumbs li {
+			  display: inline;
+			  font-size: 12px;
+			}
+			ul.breadcrumbs li+li:before {
+			  padding: 5px;
+			  color: black;
+			  content: "/\00a0";
+			}
+			ul.breadcrumbs li a {
+			  color: #0275d8;
+			  text-decoration: none;
+			}
+			ul.breadcrumbs li a:hover {
+			  color: #01447e;
+			  text-decoration: underline;
+			}
+
+
+
+

@@ -1,0 +1,106 @@
+/*
+File Name: mobiledevice.css
+Author: Patel payal pratikkumar
+Created Time: created time and date - 2nd june 11:14AM
+Last Modified Time: 7th june 
+Purpose: to give attractive look and feel to html structure of robot expo website
+*/
+
+/* this is the meadia query for mobile device */
+
+@media only screen and (max-width:31.25em) {
+	nav, article {
+		max-width: 100% !important;
+		height: auto;
+	}	  
+	.logoimage{
+		border-radius:5px;
+		margin-left: 0px;
+		max-width:500px;	
+	}
+	.col-md-4{
+		max-width:100% !important;
+		float:none !important;
+	} 	
+	.col-md-8{
+		width:100% !important;
+	}
+	p{
+		font-size: 10px;
+	}
+	.col-para{
+		width: 104%;
+	}
+	.tablecontent{
+		max-width:90%;
+	}
+	.form-column{
+		float: left;
+		padding: 10px;
+		height:auto;
+	}
+	input[type=text], select, textarea{
+		width:90%;
+	}			
+	.sitemenu ul{
+		margin:0px;
+		padding:0px;
+	}
+	.sitemenu ul li{
+		float:none;
+	}
+}
+
+
+@media (orientation: landscape) 
+{
+	nav, article {
+		max-width: 100% !important;
+		height: auto;
+	}		  
+	.logoimage {
+		border-radius: 5px;
+		margin-left: 170px;
+		max-width: 400px;
+	}
+	.col-md-4{
+		max-width:40% !important;		
+	} 
+	.category {
+		padding: 20px;
+    }
+	.category-content
+    {
+		padding: 10px;
+	}
+    .col-md-8{
+	    width: 51%;
+	}
+	.imgfloormap{
+	    width:55%;
+	}
+	.h1heading{
+		font-size:140% !important;
+	}
+	.tablecontent{
+	    width:55%; 
+	}
+	.input[type=text], select, textarea {
+	    width:50%;
+	}
+	.col-para{
+		font-size:8px;
+	    width:100%;
+	}
+	p{
+		font-size:8px;
+	}
+	.sitemenu ul{
+	    margin:0px;
+	    padding:0px;
+	}
+	.sitemenu ul li{
+		float:none;
+	}
+}
+			
